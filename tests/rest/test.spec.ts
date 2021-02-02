@@ -1,20 +1,22 @@
 import {expect} from 'chai';
 import * as api from '../../src/api';
-    describe('test set', () => {
-        beforeEach(function(){
-            console.log('beforeEach');
-        });
-        it(
-            'TC-16209. e2e - From TestResults.Available to Downloading PDF file (positive) ',
-            async () => {
-                console.log(`${process.env.API_BASE_URL}`);
-             let a =  await api.API.makeGetRequest(`${process.env.API_BASE_URL}`);
-            });
 
-        it(
-            '2nd test',
-            async () => {
-                console.log('2nd test');
-            });
+describe('test set', () => {
+  beforeEach(function(){
+    console.log('beforeEach');
+  });
+
+  it(
+    'TC-16195. Test Results: Capture the TestResults.Available event - Test Report Event Validation',
+    async () => {
+      const receivedPayload = {
+        specimenId: "TST",
+        messageName: "TestResults.Available"
+      }
+
+      const response = await Promise.resolve(receivedPayload)
+
+      // expect(response).to.deep.equal(recievedPayload);
+      expect(response).to.include({specimenId: "TST", messageName: "TestResults.Available"});
     });
-
+});

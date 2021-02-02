@@ -1,11 +1,10 @@
 {
   "name": "cancerSeek-automation",
-  "version": "1.0",
+  "version": "1.0.0",
   "scripts": {
     "lint": "eslint src/**",
     "test": "env TS_NODE_COMPILER_OPTIONS='{\"module\": \"commonjs\" }' mocha -r ts-node/register 'tests/**/*.ts'"
   },
-
   "devDependencies": {
     "@babel/preset-env": "^7.12.11",
     "@types/chai": "^4.2.14",
