@@ -1,6 +1,6 @@
 {
   "name": "cancerSeek-automation",
-  "version": "1.0",
+  "version": "1.0.1",
   "scripts": {
     "lint": "eslint src/**",
     "test": "env TS_NODE_COMPILER_OPTIONS='{\"module\": \"commonjs\" }' mocha -r ts-node/register 'tests/**/*.ts'"
