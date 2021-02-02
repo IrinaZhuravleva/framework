@@ -1,0 +1,1 @@
+{"payload":{"eventId":"1","source":"MockTool","originator":"MockTool","specimenId":"TST123","sentAt":"2021-01-29T09:34:45Z","payload":{"result":"positive"}},"messageName":"TestResults.Available","customProperties":{"command":"TestResults.Available"}}
