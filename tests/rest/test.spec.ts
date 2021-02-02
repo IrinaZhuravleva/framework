@@ -1,6 +1,6 @@
 import {expect} from 'chai';
 import * as api from '../../src/api';
-    describe('qwerty', () => {
+    describe('test set', () => {
         beforeEach(function(){
             console.log('beforeEach');
         });
