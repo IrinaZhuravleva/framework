@@ -1,0 +1,15 @@
+{
+    "customProperties": {
+      "command":"TestResults.Available"
+    },
+    "body": {
+      "eventId": "1",
+      "source": "MockTool",
+      "originator": "MockTool",
+      "sentAt": "2021-01-29T09:34:45Z",
+      "payload": {
+        "result": "inconclusive"
+      }
+    }
+  }
+  
