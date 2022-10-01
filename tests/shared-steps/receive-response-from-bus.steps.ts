@@ -1,4 +1,3 @@
-
 import {TestResultsAvailable} from "../../config/mocks/requests/testresults-available.json";
 import {readFileSync} from "fs";
 import {TestResultsAvailableMessageJSON} from "../../config/mocks/responses/TestResultsAvailableMessageJSON";
